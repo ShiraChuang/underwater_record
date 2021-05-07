@@ -9,3 +9,7 @@ p {
 .not-fantasy {
     font-family: cursive;
 }
+
+small-block{
+    overflow: scroll;
+}
