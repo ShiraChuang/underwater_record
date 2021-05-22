@@ -1,7 +1,27 @@
 body {
-    background-color: rgb(83, 141, 255);
+   
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("file:///C:/Users/Shira%20Chuang/Desktop/web_programming/underwater_record/background.png");
+    background-repeat: no-repeat;
+    background-size: 1920px auto;
+    height: 100%;
+    margin: 0px 50px;
+
 }
+
+/* .rular_1 img{
+    width: 100%;
+    display: block; 
+    position: relative; 
+    z-index: 2;
+}
+
+<div class="rular_1">
+    <img src="file:///C:/Users/Shira%20Chuang/Desktop/web_programming/underwater_record/rular_1.png">
+
+    </div> */
+
+
 p {
     font-family: Arial;
 }
@@ -14,6 +34,88 @@ small-block{
     overflow: scroll;
 }
 
-Div{
-    margin: 200px 500px;
+
+
+.splash_page{
+    height:3.4rem;
+}
+
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  70vh 300vh 120vh 0vh 120vh 45vh 55vh 70vh 220vh 100vh;
+}
+
+.section1{
+    grid-column: 3/4;
+    grid-row: 2;
+   display: block;
+    max-height: 100vh;
+    max-width: 50vh;
+}
+.section2{
+    grid-column: 3/4;
+    grid-row: 3;
+   display: block;
+    max-height: 100vh;
+    max-width: 40vh;
+}
+
+/* Alessia */
+.section3{
+    grid-column: 2/4;
+    grid-row: 4;
+   display: block;
+    max-height: 100vh;
+    max-width: 20vh;
+}
+.section4{
+    grid-column: 4/4;
+    grid-row: 5;
+   display: block;
+    max-height: 100vh;
+    max-width: 40vh;
+}
+
+/* Alexey */
+.section5{
+    grid-column: 2/4;
+    grid-row: 6;
+   display: block;
+    max-height: 100vh;
+    max-width: 40vh;
+}
+.section6{
+    grid-column: 3/4;
+    grid-row: 7;
+   display: block;
+    max-height: 100vh;
+    max-width: 40vh;
+}
+.section7{
+    grid-column: 4/4;
+    grid-row: 8;
+   display: block;
+    max-height: 100vh;
+    max-width: 40vh;
+}
+
+/* Tanya */
+.section8{
+    grid-column: 3/4;
+    grid-row: 9;
+   display: block;
+    max-height: 100vh;
+    max-width: 40vh;
+}
+.section9{
+    grid-column: 3/4;
+    grid-row: 10;
+   display: block;
+    max-height: 100vh;
+    max-width: 40vh;
 }
